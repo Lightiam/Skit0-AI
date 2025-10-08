@@ -1,0 +1,38 @@
+$ next dev --turbopack
+   ▲ Next.js 15.5.3 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://169.254.0.21:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 1646ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5.8s
+ GET / 200 in 6520ms
+ ✓ Compiled /favicon.ico in 391ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 738ms
+ ⚠ Cross origin request detected from skit-0-frontend.lindy.site to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+   Reload env: .env.local
+ ✓ Compiled in 486ms
+ ✓ Compiled in 729ms
+   Reload env: .env.local
+ ✓ Compiled / in 37ms
+ GET / 200 in 352ms
+ GET /favicon.ico?favicon.bf3c9292.ico 200 in 300ms
+ ○ Compiling /sign-up ...
+ ✓ Compiled /sign-up in 648ms
+ GET /sign-up 200 in 746ms
+ ○ Compiling /sign-in ...
+ ✓ Compiled /sign-in in 537ms
+ GET /sign-in 200 in 633ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 972ms
+ GET /dashboard 200 in 1066ms
+ ○ Compiling /projects/[id] ...
+ ✓ Compiled /projects/[id] in 637ms
+ GET /projects/1 200 in 1438ms
